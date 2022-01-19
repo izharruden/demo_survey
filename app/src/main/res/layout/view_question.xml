@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/dialogCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/dimen20dp">
+
+            <TextView
+                android:id="@+id/questionLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen10dp"
+                android:textColor="@color/blackColor"
+                android:textSize="@dimen/text_18sp" />
+
+            <LinearLayout
+                android:id="@+id/answerView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:orientation="horizontal"
+                android:padding="@dimen/dimen10dp">
+
+                <ImageView
+                    android:id="@+id/answerTick1"
+                    android:layout_width="@dimen/dimen20dp"
+                    android:layout_height="@dimen/dimen20dp"
+                    android:src="@drawable/ic_unselected" />
+
+                <TextView
+                    android:id="@+id/answer1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen10dp"
+                    android:layout_marginEnd="@dimen/dimen10dp"
+                    android:textColor="@color/blackColor"
+                    android:textSize="@dimen/text_16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/answerView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:orientation="horizontal"
+                android:padding="@dimen/dimen10dp">
+
+                <ImageView
+                    android:id="@+id/answerTick2"
+                    android:layout_width="@dimen/dimen20dp"
+                    android:layout_height="@dimen/dimen20dp"
+                    android:src="@drawable/ic_unselected" />
+
+                <TextView
+                    android:id="@+id/answer2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen10dp"
+                    android:layout_marginEnd="@dimen/dimen10dp"
+                    android:textColor="@color/blackColor"
+                    android:textSize="@dimen/text_16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/answerView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:orientation="horizontal"
+                android:padding="@dimen/dimen10dp">
+
+                <ImageView
+                    android:id="@+id/answerTick3"
+                    android:layout_width="@dimen/dimen20dp"
+                    android:layout_height="@dimen/dimen20dp"
+                    android:src="@drawable/ic_unselected" />
+
+                <TextView
+                    android:id="@+id/answer3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen10dp"
+                    android:layout_marginEnd="@dimen/dimen10dp"
+                    android:textColor="@color/blackColor"
+                    android:textSize="@dimen/text_16sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/answerView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|start"
+                android:orientation="horizontal"
+                android:padding="@dimen/dimen10dp">
+
+                <ImageView
+                    android:id="@+id/answerTick4"
+                    android:layout_width="@dimen/dimen20dp"
+                    android:layout_height="@dimen/dimen20dp"
+                    android:src="@drawable/ic_unselected" />
+
+                <TextView
+                    android:id="@+id/answer4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen10dp"
+                    android:layout_marginEnd="@dimen/dimen10dp"
+                    android:textColor="@color/blackColor"
+                    android:textSize="@dimen/text_16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
